@@ -9,6 +9,8 @@
     background-color: #0d1b2a;
     color: #fff;
   }
+
+   
   
   /* Navbar Style */
   .navbar {
@@ -17,9 +19,13 @@
     align-items: center;
     padding: 1rem 2rem;
     background: #142a4e;
+    padding: 0 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid gray;
   }
   .logo {
-    font-size: 1.5rem;
+    font-size:2rem;
     font-weight: bold;
     color: #f95959;
   }
@@ -33,7 +39,7 @@
   .nav-links a {
     text-decoration: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: color 0.3s ease;
   }
   .nav-links a:hover {
@@ -101,6 +107,9 @@
     gap: 20px;
     justify-content: center;
 }
+#projects{
+  padding-top: 3rem;
+}
 
 .project {
     width: 300px;
@@ -111,6 +120,13 @@
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#project-h2{
+  font-size: 2rem; 
+  margin-left: 4rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 
 .project:hover {
@@ -146,4 +162,33 @@
 
 .project a:hover {
     background-color: #0056b3;
+}
+.about{
+  text-align: center;
+  margin-bottom: 3rem;
+
+}
+.about h1{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+.about p{
+  font-size: 1.2rem;
+
+}
+
+#contact{
+  font-weight: normal; 
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+
+}
+
+#contact h2{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+#contact p{
+  font-size:1rem;
+  margin-top: 1rem;
 }
